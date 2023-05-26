@@ -135,13 +135,13 @@ public:
 int main() {
     Hostel hostel;
 
-    Student student1("John Doe", 20, 'M', 101);
-    Student student2("Jane Smith", 19, 'F', 102);
+    Student student1("Talha Kabir", 22, 'M', 101);
+    Student student2("Sana Khan", 23, 'F', 102);
     hostel.addStudent(student1);
     hostel.addStudent(student2);
 
-    Staff staff1("Alex Wilson", 28, 'M', "Security", 'N');
-    Staff staff2("Olivia Davis", 25, 'F', "Housekeeping", 'D');
+    Staff staff1("Rahim Mia", 28, 'M', "Security", 'N');
+    Staff staff2("Jarina Begum", 42, 'F', "Cook", 'D');
     hostel.addStaff(staff1);
     hostel.addStaff(staff2);
 
